@@ -1,0 +1,144 @@
+
+body {
+    display: flex;
+    padding: 0;
+    margin:0;
+    background-color: #E1ECEB;
+    background-image: url("../images/image.png");
+
+}
+.form {
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 1px 10px grey;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  }
+#login-form {
+    position: relative;
+    top: -4%;
+    left: 10%;
+}
+  #login-form > #username {
+    border: none;
+    height: 40px;
+    width: 300px;
+    border-radius: 0 5px 5px 0;
+    top:0.5px;
+    position: relative;
+    left: 35px;
+    background-color: #f5cbdd;
+  }
+  .username-input{
+    padding-left: 28px;
+  }
+  #username::placeholder {
+  
+    color: #707070;
+  }
+  #username > input [type=text] {
+    padding-left: 30px;
+  }
+  #username:focus {
+    outline: none;
+  }
+
+  .circle-span {
+    width: 11.5%;
+    height: 23%;
+    background: #d5187d;
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    left: 10px;
+  }
+  .circle-span > svg {
+    position: relative;
+    top: 9px;
+    left: 19px;
+  }
+#login-form > label {
+    padding-left: 10px;
+}
+ #username, #password {
+    margin-left: 10px;
+}
+.circle-psw {
+    width: 11.5%;
+    height: 23%;
+    background: #d5187d;
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    left: 10px;
+}
+.circle-psw > .svg-lock {
+    position: relative;
+    top: 9px;
+    left: 19px;
+}
+
+#login-form > #password {
+    border: none;
+    height: 40px;
+    width: 300px;
+    border-radius: 0 5px 5px 0;
+    top:0.5px;
+    position: relative;
+    left: 35px;
+    background-color: #f5cbdd;
+  }
+
+  #password{
+    padding-left: 28px;
+  }
+  #password::placeholder {
+  
+    color: #707070;
+  }
+  #password > input [type=text] {
+    padding-left: 30px;
+  }
+  #password:focus {
+    outline: none;
+  }
+.buttoni-login{
+    background-color: #d5187d; 
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 6px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    top: 55px;
+    left: 150px;
+}
+h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: #d5187d;
+}
+
+.check-box {
+    position: absolute;
+    top: 58%;
+    font-size: 12px;
+    left: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.check-box > input {
+    width: 17px;
+    height: 27px;
+    display: inline-block;
+    position: absolute;
+    top: -65%;
+    left: -35%;
+    z-index: 1;
+}
